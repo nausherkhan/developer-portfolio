@@ -83,10 +83,14 @@ main{
     margin: 0 auto;
 }
 
+section{
+    margin-top: 130px;
+    text-align: center;
+}
 
 
 .about{
-   margin-top: 130px;
+   
    background-color: #FFF8F3;
    border-radius: 10px;
    padding: 130px 150px;
@@ -97,7 +101,8 @@ main{
     
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
     
 
 
@@ -128,3 +133,36 @@ main{
     
 
 }
+
+
+/* WHAT I DO STYLES */
+
+
+.skills-container{
+    display: flex;
+    gap: 24px
+    ;
+}
+
+.skill{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-des{
+    color: #757575;
+}
+
+
+/* RESUME STYLE */
